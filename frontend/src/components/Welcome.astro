@@ -1,0 +1,20 @@
+---
+import astroLogo from "../assets/astro.svg";
+---
+
+<div id="container">
+	<main>
+		<section id="hero">
+			<a href="https://astro.build"
+				><img
+					src={astroLogo.src}
+					width="115"
+					height="48"
+					alt="Astro Homepage"
+				/></a
+			>
+			<!-- injected variable -->
+			<h1>Hello [[.name]]!</h1>
+		</section>
+	</main>
+</div>
